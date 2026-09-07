@@ -1,0 +1,24 @@
+:root {
+  font: 16px/1.5 Avenir, Montserrat, Corbel, sans-serif;
+  color: #26362d;
+  background: #f7f6ef;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
