@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { collectionUrl, fetchCollection } from '../api.js'
 
+//   app.use('https://${codespaceName}-8000.app.github.dev/api/leaderboard', leaderboardRouter);
 function Leaderboard() {
   const [leaders, setLeaders] = useState([])
   const [status, setStatus] = useState('loading')

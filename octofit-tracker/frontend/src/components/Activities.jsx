@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { collectionUrl, fetchCollection } from '../api.js'
 
+//   app.use('https://${codespaceName}-8000.app.github.dev/api/activities', activitiesRouter);
 function Activities() {
   const [activities, setActivities] = useState([])
   const [status, setStatus] = useState('loading')

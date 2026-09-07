@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { collectionUrl, fetchCollection } from '../api.js'
 
+//   app.use('https://${codespaceName}-8000.app.github.dev/api/teams', teamsRouter);
 function Teams() {
   const [teams, setTeams] = useState([])
   const [status, setStatus] = useState('loading')
