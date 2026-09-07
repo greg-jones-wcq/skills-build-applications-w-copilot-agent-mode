@@ -4,6 +4,12 @@ export const apiBaseUrl = codespaceName
   ? `https://${codespaceName}-8000.app.github.dev/api`
   : 'http://localhost:8000/api'
 
+//   app.use('https://${codespaceName}-8000.app.github.dev/api/users', usersRouter);
+//   app.use('https://${codespaceName}-8000.app.github.dev/api/teams', teamsRouter);
+//   app.use('https://${codespaceName}-8000.app.github.dev/api/activities', activitiesRouter);
+//   app.use('https://${codespaceName}-8000.app.github.dev/api/leaderboard', leaderboardRouter);
+//   app.use('https://${codespaceName}-8000.app.github.dev/api/workouts', workoutsRouter);
+  
 export function collectionUrl(collection) {
   return `${apiBaseUrl}/${collection}/`
 }
